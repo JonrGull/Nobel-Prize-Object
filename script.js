@@ -32,10 +32,6 @@ for (let i = 0; i < nobels.prizes.length; i++) {
       ? document.body.appendChild(h4OverMotivations)
       : null;
 
-    /* if (nobels.prizes[i].overallMotivation != undefined) {
-      document.body.appendChild(h4OverMotivations);
-    }*/
-
     // ID, names, motivation, shares
     for (let k = 0; k < nobels.prizes[i].laureates.length; k++) {
       //console.log(nobels.prizes[i].laureates);
@@ -48,7 +44,6 @@ for (let i = 0; i < nobels.prizes.length; i++) {
       } else {
         innerLaureates.innerText = `ID: ${innerLaureatesShort.id} - ${innerLaureatesShort.firstname} ${innerLaureatesShort.surname}  (Share: ${innerLaureatesShort.share})`;
       }
-
       document.body.appendChild(innerLaureates);
     }
   }

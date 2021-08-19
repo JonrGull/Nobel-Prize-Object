@@ -1,4 +1,16 @@
 /* Title "Nobel Prize Winners */
+
+body {
+  background-image: url("https://i.ibb.co/yR2bzt6/162937285533002026.png"); /* background img */
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 25%;
+
+  font-family: Arial, Helvetica, sans-serif; /* text style */
+  font-size: 20px;
+}
+
 H1 {
   text-align: center;
 }
